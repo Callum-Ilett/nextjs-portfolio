@@ -1,0 +1,12 @@
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .main {
+    left: 18%;
+    width: calc(100% - 18%);
+  }
+}

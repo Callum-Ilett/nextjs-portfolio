@@ -1,0 +1,41 @@
+.service {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+.service__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 0;
+}
+
+.service__image {
+  padding-right: 20px;
+}
+
+.service__image > img {
+  width: 200px;
+}
+
+@media (min-width: 992px) {
+  .services {
+    display: flex;
+  }
+
+  .service > h4,
+  .service__text p {
+    text-align: center;
+  }
+
+  .service__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .service__image > img {
+    width: 74px;
+    height: 74px;
+  }
+}

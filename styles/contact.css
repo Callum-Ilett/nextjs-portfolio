@@ -1,0 +1,145 @@
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info__card {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 20px 10px 15px;
+  border: 1px solid #eee;
+  box-shadow: none;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.info__card .MuiSvgIcon-root {
+  position: relative;
+  font-size: 40px;
+  color: #b5b5b5;
+}
+
+.info__card h4 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.form {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+}
+
+.form * {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.form__title {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.form__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form__item > * {
+  align-self: flex-start;
+}
+
+.form__label {
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.form__input {
+  width: 100%;
+  max-width: 425px;
+
+  /* Fix for Safari/iOS date fields */
+  min-height: calc(0.9em + (0.8em * 2) + 0.6em);
+
+  padding: 0.8em;
+  font-size: 0.9em;
+  font-family: "Source Sans Pro", sans-serif;
+
+  outline: none;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background: #f9f9f9;
+  transition: all 0.25s, border-color 0.25s, color 0.25s;
+}
+
+.form__input:focus {
+  background: #ffffff;
+}
+
+.form__input::placeholder {
+  color: #bbbbbb;
+}
+
+.form__input--error {
+  background: #fff8f8;
+  border: 2px solid #d50000;
+}
+
+.form__input--error::placeholder {
+  color: #d50000;
+}
+
+.form__input--error {
+  visibility: visible;
+}
+
+.form__input--small {
+  max-width: 250px;
+}
+
+textarea.form__input {
+  resize: none;
+  min-height: 100px;
+}
+
+.form__btn {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  max-width: 425px;
+  margin-bottom: 0.25em;
+  font-size: 1em;
+  line-height: 1.2;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  text-shadow: none;
+  background-color: #62b750;
+  border-radius: 0;
+  font-family: "Poppins", Helvetica, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 992px) {
+  .info__card {
+    margin-right: 30px;
+  }
+  .contact__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  iframe {
+    display: block;
+    width: 480px;
+    height: 310px;
+  }
+}

@@ -8,8 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.20.0",
+    "isotope-layout": "^3.0.6",
     "next": "9.5.5",
     "react": "16.14.0",
-    "react-dom": "16.14.0"
+    "react-dom": "16.14.0",
+    "react-scrollspy-nav": "^1.2.4",
+    "react-typed": "^1.2.0",
+    "yup": "^0.29.3"
   }
 }

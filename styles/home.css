@@ -1,0 +1,57 @@
+#home {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.callumilett.co.uk/wp-content/uploads/bg_optimized.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.section__container {
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.section__container .section__intro {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__container .section__intro > h2 {
+  text-align: center;
+  font-size: 52px;
+  color: #6ac04f;
+  margin: 0;
+}
+
+.section__subHeadline {
+  font-size: 16px;
+  color: #a8a8a8;
+  font-weight: 300;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.section__headline {
+  color: white;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+@media (min-width: 992px) {
+  .section__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttons .btn--primary {
+    margin-right: 1.5rem !important;
+  }
+}

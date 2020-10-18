@@ -1,0 +1,27 @@
+.section__row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.section__column {
+  flex-basis: 100%;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.section__column .section__subtitle {
+  margin: 0px 0 20px 0;
+}
+
+@media (min-width: 1073px) {
+  .section__column {
+    flex-basis: 33.33%;
+  }
+}
+@media (min-width: 815px) {
+  .section__column {
+    flex-basis: 50%;
+  }
+}
